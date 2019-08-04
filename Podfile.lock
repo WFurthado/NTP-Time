@@ -1,0 +1,17 @@
+PODS:
+  - CocoaAsyncSocket (7.5.1):
+    - CocoaAsyncSocket/GCD (= 7.5.1)
+  - CocoaAsyncSocket/GCD (7.5.1)
+  - NHNetworkTime (1.7):
+    - CocoaAsyncSocket (~> 7.5.0)
+
+DEPENDENCIES:
+  - NHNetworkTime
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: e0a7e93b2ffa411592ff87e58524fbbc9b95b4fa
+  NHNetworkTime: b140ee21770aed41e7b8fd43647bce6349ad10f2
+
+PODFILE CHECKSUM: 51844e5cece5acb60758855ba7a7ff84cac5b6d4
+
+COCOAPODS: 1.4.0

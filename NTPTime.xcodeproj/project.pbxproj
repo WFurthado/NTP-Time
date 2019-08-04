@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		984F970F4FB4E2AF6FFBD60B /* Pods_NTPTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2513F8FF33B80C0FB7391F /* Pods_NTPTime.framework */; };
+		DA662C412227E20400684B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA662C402227E20400684B68 /* AppDelegate.swift */; };
+		DA662C432227E20400684B68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA662C422227E20400684B68 /* ViewController.swift */; };
+		DA662C462227E20400684B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA662C442227E20400684B68 /* Main.storyboard */; };
+		DA662C492227E20400684B68 /* NTPTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA662C472227E20400684B68 /* NTPTime.xcdatamodeld */; };
+		DA662C4B2227E20600684B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA662C4A2227E20600684B68 /* Assets.xcassets */; };
+		DA662C4E2227E20600684B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA662C4C2227E20600684B68 /* LaunchScreen.storyboard */; };
+		DA662C592227E20600684B68 /* NTPTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA662C582227E20600684B68 /* NTPTimeTests.swift */; };
+		DA662C642227E20600684B68 /* NTPTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA662C632227E20600684B68 /* NTPTimeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA662C552227E20600684B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA662C352227E20400684B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA662C3C2227E20400684B68;
+			remoteInfo = NTPTime;
+		};
+		DA662C602227E20600684B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA662C352227E20400684B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA662C3C2227E20400684B68;
+			remoteInfo = NTPTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C2513F8FF33B80C0FB7391F /* Pods_NTPTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NTPTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C335869B4FE6133E38DF658C /* Pods-NTPTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTPTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NTPTime/Pods-NTPTime.debug.xcconfig"; sourceTree = "<group>"; };
+		DA662C3D2227E20400684B68 /* NTPTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTPTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA662C402227E20400684B68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA662C422227E20400684B68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA662C452227E20400684B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA662C482227E20400684B68 /* NTPTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NTPTime.xcdatamodel; sourceTree = "<group>"; };
+		DA662C4A2227E20600684B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA662C4D2227E20600684B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA662C4F2227E20600684B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA662C542227E20600684B68 /* NTPTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTPTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA662C582227E20600684B68 /* NTPTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTPTimeTests.swift; sourceTree = "<group>"; };
+		DA662C5A2227E20600684B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA662C5F2227E20600684B68 /* NTPTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTPTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA662C632227E20600684B68 /* NTPTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTPTimeUITests.swift; sourceTree = "<group>"; };
+		DA662C652227E20600684B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA17A9C2BF02A3AB1C8716A /* Pods-NTPTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTPTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-NTPTime/Pods-NTPTime.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA662C3A2227E20400684B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984F970F4FB4E2AF6FFBD60B /* Pods_NTPTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA662C512227E20600684B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA662C5C2227E20600684B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA8B79B63562981E6158BAB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C335869B4FE6133E38DF658C /* Pods-NTPTime.debug.xcconfig */,
+				EEA17A9C2BF02A3AB1C8716A /* Pods-NTPTime.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7486FFDE203779325F8F0BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C2513F8FF33B80C0FB7391F /* Pods_NTPTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA662C342227E20400684B68 = {
+			isa = PBXGroup;
+			children = (
+				DA662C3F2227E20400684B68 /* NTPTime */,
+				DA662C572227E20600684B68 /* NTPTimeTests */,
+				DA662C622227E20600684B68 /* NTPTimeUITests */,
+				DA662C3E2227E20400684B68 /* Products */,
+				BA8B79B63562981E6158BAB2 /* Pods */,
+				C7486FFDE203779325F8F0BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA662C3E2227E20400684B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA662C3D2227E20400684B68 /* NTPTime.app */,
+				DA662C542227E20600684B68 /* NTPTimeTests.xctest */,
+				DA662C5F2227E20600684B68 /* NTPTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA662C3F2227E20400684B68 /* NTPTime */ = {
+			isa = PBXGroup;
+			children = (
+				DA662C402227E20400684B68 /* AppDelegate.swift */,
+				DA662C422227E20400684B68 /* ViewController.swift */,
+				DA662C442227E20400684B68 /* Main.storyboard */,
+				DA662C4A2227E20600684B68 /* Assets.xcassets */,
+				DA662C4C2227E20600684B68 /* LaunchScreen.storyboard */,
+				DA662C4F2227E20600684B68 /* Info.plist */,
+				DA662C472227E20400684B68 /* NTPTime.xcdatamodeld */,
+			);
+			path = NTPTime;
+			sourceTree = "<group>";
+		};
+		DA662C572227E20600684B68 /* NTPTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA662C582227E20600684B68 /* NTPTimeTests.swift */,
+				DA662C5A2227E20600684B68 /* Info.plist */,
+			);
+			path = NTPTimeTests;
+			sourceTree = "<group>";
+		};
+		DA662C622227E20600684B68 /* NTPTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA662C632227E20600684B68 /* NTPTimeUITests.swift */,
+				DA662C652227E20600684B68 /* Info.plist */,
+			);
+			path = NTPTimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA662C3C2227E20400684B68 /* NTPTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA662C682227E20600684B68 /* Build configuration list for PBXNativeTarget "NTPTime" */;
+			buildPhases = (
+				683E4CAB9DD709672C251319 /* [CP] Check Pods Manifest.lock */,
+				DA662C392227E20400684B68 /* Sources */,
+				DA662C3A2227E20400684B68 /* Frameworks */,
+				DA662C3B2227E20400684B68 /* Resources */,
+				0ED975E0A8DA00869C469828 /* [CP] Embed Pods Frameworks */,
+				07C08FA40C79A81313271C7B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTPTime;
+			productName = NTPTime;
+			productReference = DA662C3D2227E20400684B68 /* NTPTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA662C532227E20600684B68 /* NTPTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA662C6B2227E20600684B68 /* Build configuration list for PBXNativeTarget "NTPTimeTests" */;
+			buildPhases = (
+				DA662C502227E20600684B68 /* Sources */,
+				DA662C512227E20600684B68 /* Frameworks */,
+				DA662C522227E20600684B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA662C562227E20600684B68 /* PBXTargetDependency */,
+			);
+			name = NTPTimeTests;
+			productName = NTPTimeTests;
+			productReference = DA662C542227E20600684B68 /* NTPTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA662C5E2227E20600684B68 /* NTPTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA662C6E2227E20600684B68 /* Build configuration list for PBXNativeTarget "NTPTimeUITests" */;
+			buildPhases = (
+				DA662C5B2227E20600684B68 /* Sources */,
+				DA662C5C2227E20600684B68 /* Frameworks */,
+				DA662C5D2227E20600684B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA662C612227E20600684B68 /* PBXTargetDependency */,
+			);
+			name = NTPTimeUITests;
+			productName = NTPTimeUITests;
+			productReference = DA662C5F2227E20600684B68 /* NTPTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA662C352227E20400684B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Pervacio;
+				TargetAttributes = {
+					DA662C3C2227E20400684B68 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DA662C532227E20600684B68 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DA662C3C2227E20400684B68;
+					};
+					DA662C5E2227E20600684B68 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DA662C3C2227E20400684B68;
+					};
+				};
+			};
+			buildConfigurationList = DA662C382227E20400684B68 /* Build configuration list for PBXProject "NTPTime" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA662C342227E20400684B68;
+			productRefGroup = DA662C3E2227E20400684B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA662C3C2227E20400684B68 /* NTPTime */,
+				DA662C532227E20600684B68 /* NTPTimeTests */,
+				DA662C5E2227E20600684B68 /* NTPTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA662C3B2227E20400684B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA662C4E2227E20600684B68 /* LaunchScreen.storyboard in Resources */,
+				DA662C4B2227E20600684B68 /* Assets.xcassets in Resources */,
+				DA662C462227E20400684B68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA662C522227E20600684B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA662C5D2227E20600684B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07C08FA40C79A81313271C7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NTPTime/Pods-NTPTime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0ED975E0A8DA00869C469828 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NTPTime/Pods-NTPTime-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/NHNetworkTime/NHNetworkTime.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NHNetworkTime.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NTPTime/Pods-NTPTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		683E4CAB9DD709672C251319 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NTPTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA662C392227E20400684B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA662C432227E20400684B68 /* ViewController.swift in Sources */,
+				DA662C412227E20400684B68 /* AppDelegate.swift in Sources */,
+				DA662C492227E20400684B68 /* NTPTime.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA662C502227E20600684B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA662C592227E20600684B68 /* NTPTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA662C5B2227E20600684B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA662C642227E20600684B68 /* NTPTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA662C562227E20600684B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA662C3C2227E20400684B68 /* NTPTime */;
+			targetProxy = DA662C552227E20600684B68 /* PBXContainerItemProxy */;
+		};
+		DA662C612227E20600684B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA662C3C2227E20400684B68 /* NTPTime */;
+			targetProxy = DA662C602227E20600684B68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA662C442227E20400684B68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA662C452227E20400684B68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA662C4C2227E20600684B68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA662C4D2227E20600684B68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA662C662227E20600684B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA662C672227E20600684B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA662C692227E20600684B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C335869B4FE6133E38DF658C /* Pods-NTPTime.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AF3H5NEKU;
+				INFOPLIST_FILE = NTPTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA662C6A2227E20600684B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA17A9C2BF02A3AB1C8716A /* Pods-NTPTime.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AF3H5NEKU;
+				INFOPLIST_FILE = NTPTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA662C6C2227E20600684B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AF3H5NEKU;
+				INFOPLIST_FILE = NTPTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pervacio.diagnostics.NTPTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTPTime.app/NTPTime";
+			};
+			name = Debug;
+		};
+		DA662C6D2227E20600684B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AF3H5NEKU;
+				INFOPLIST_FILE = NTPTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pervacio.diagnostics.NTPTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTPTime.app/NTPTime";
+			};
+			name = Release;
+		};
+		DA662C6F2227E20600684B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AF3H5NEKU;
+				INFOPLIST_FILE = NTPTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pervacio.diagnostics.NTPTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NTPTime;
+			};
+			name = Debug;
+		};
+		DA662C702227E20600684B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AF3H5NEKU;
+				INFOPLIST_FILE = NTPTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pervacio.diagnostics.NTPTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NTPTime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA662C382227E20400684B68 /* Build configuration list for PBXProject "NTPTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA662C662227E20600684B68 /* Debug */,
+				DA662C672227E20600684B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA662C682227E20600684B68 /* Build configuration list for PBXNativeTarget "NTPTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA662C692227E20600684B68 /* Debug */,
+				DA662C6A2227E20600684B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA662C6B2227E20600684B68 /* Build configuration list for PBXNativeTarget "NTPTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA662C6C2227E20600684B68 /* Debug */,
+				DA662C6D2227E20600684B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA662C6E2227E20600684B68 /* Build configuration list for PBXNativeTarget "NTPTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA662C6F2227E20600684B68 /* Debug */,
+				DA662C702227E20600684B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA662C472227E20400684B68 /* NTPTime.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA662C482227E20400684B68 /* NTPTime.xcdatamodel */,
+			);
+			currentVersion = DA662C482227E20400684B68 /* NTPTime.xcdatamodel */;
+			path = NTPTime.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DA662C352227E20400684B68 /* Project object */;
+}
